@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Nunito', sans-serif; */
+    
+}
+  /* body part cover below heading part */
+  body {
+    background-color: black;
+    color: white;
+    margin: 50px;
+  }
+  h1{
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 3px;
+
+  }
+  /* P1 is the counter conting part */
+  p.p1 {
+      margin-top: 20px;
+    display: inline-block;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+  }
+  p#error {
+    color: brown;
+    margin-top: 20px;
+  }
+  /* button 1 */
+  .btn {
+    width: 180px;
+    height: 40px;
+    margin-right: 20px;
+    margin-top: 30px;
+  }
+   /* button 2 */
+  .btn1 {
+    background-color: black;
+    color: white;
+    border: 1px solid;
+    display: none;
+  }
